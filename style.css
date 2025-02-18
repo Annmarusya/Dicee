@@ -1,26 +1,29 @@
 
 .text{
-    font-weight: 400;
     text-align: center;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 h1{
     font-size: 6rem;
-    font-family: "Kavoon", serif;
+    font-family: "Pacifico", serif;
     padding-bottom: 0;
     margin-bottom: 0;
-    color: #f5eff2;
+    color: hsl(0, 0%, 100%);
     margin-top: 10px;
+    font-weight: 50;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
 h3{
     font-size: 3rem;
-    font-family: "Lobster", serif;
-    color: rgb(242, 215, 235);
-    font-weight: 100;
+    font-family: "Poppins", serif;
+    color: #ff04b4;
+    font-weight: 400;
+    text-shadow: 1px 1px 3px rgb(255, 255, 255);
+
 }
 .image{
     height: 30vh;
     padding: 0 40px 40px 40px;
+    
 }
 
 body {
@@ -31,18 +34,25 @@ body {
     justify-content: center;
     align-content: center;
 }
-button{
-    background-color: #4a154b;
+button{ 
+    background: linear-gradient(135deg, #FF66A3, #FF3385);
     height: 100px;
     border-radius: 30px;
     width: 300px;
     text-align: center;
-    font-family: "Kavoon", serif;
+    font-family: "Poppins", serif;
     font-size: 2rem;
-    color: rgb(242, 215, 235);
-    border-color: rgb(242, 215, 235);
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    font-weight: 500;
+    color: white;
+    border: none;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    transition: 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+button:hover {
+    background: linear-gradient(135deg, #FF3385, #FF66A3);
+    transform: scale(1.05);
+  }
 .button {
     display: flex;
     justify-content: center;
@@ -54,7 +64,7 @@ footer {
     margin-top: 40px;
     color: #c9c2c2;
     text-align: center;
-    font-family: "Kavoon", serif;
+    font-family: "Poppins", serif;
     font-size: 15px;
   }
 

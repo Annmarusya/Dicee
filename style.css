@@ -4,20 +4,21 @@
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 h1{
-    font-size: 5rem;
+    font-size: 6rem;
     font-family: "Kavoon", serif;
     padding-bottom: 0;
     margin-bottom: 0;
     color: #f5eff2;
 }
 h3{
-    font-size: 2rem;
-    font-family: "Kavoon", serif;
+    font-size: 3rem;
+    font-family: "Lobster", serif;
     color: rgb(242, 215, 235);
+    font-weight: 100;
 }
 .image{
     border-radius: 10px;
-    height: 35vh;
+    height: 30vh;
     padding: 0 40px 40px 40px;
 }
 

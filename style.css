@@ -1,7 +1,5 @@
 .text{
     font-weight: 400;
-    
-    color: rgb(242, 215, 235);
     text-align: center;
 }
 h1{
@@ -9,10 +7,12 @@ h1{
     font-family: "Kavoon", serif;
     padding-bottom: 0;
     margin-bottom: 0;
+    color: #f3dde8;
 }
 h3{
     font-size: 2rem;
     font-family: "Kavoon", serif;
+    color: rgb(242, 215, 235);
 }
 .image{
     border-radius: 10px;

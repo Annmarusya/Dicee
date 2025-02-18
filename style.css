@@ -28,6 +28,25 @@ body {
     justify-content: center;
     align-content: center;
 }
+@media (max-width: 650px) {
+    .container {
+        display: flexbox;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .image {
+        height: 23vh;
+        padding-bottom: 5px;
+        padding-top: 0px;
+    }
+    h3 {
+        margin: 15px;
+    }
+    .button{
+        margin-top: 15px;
+    }
+}
 
 footer {
     margin-top: 5%;
@@ -56,5 +75,4 @@ button{
     display: flex;
     justify-content: center;
     padding: 20px;
-    
 }
